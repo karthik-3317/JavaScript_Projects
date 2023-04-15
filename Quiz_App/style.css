@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: url('./quiz3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(71, 255, 194); */
+}
+nav{
+    min-width: 99vw;
+    height:10vh;
+    display: flex;
+    justify-content:space-between;
+    background-color:rgb(255, 230, 0)
+}
+.logo{
+    width:10%;
+    height:100%;
+}
+.logo > img{
+    width: 100%;
+    height: 100%;
+}
+.midtitle{
+    width:20%;
+    height: 100%;
+    text-align: center;
+}
+.midtitle > label{
+    font-size: 37px;
+    font-family: cursive;
+}
+.scorecard {
+    width: 17%;
+    height: 100%;
+    text-align: center;
+}
+.scorecard > label{
+    font-size: 34px;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    width:100%;
+    height:89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrows{
+    width:100%;
+    margin-bottom: 30px;
+}
+#quizdata{
+    width:500px;
+    height:300px;
+    background-color: rgb(255, 249, 249);
+    border: 1px solid rgb(66, 67, 66);
+    padding: 40px;
+    box-shadow: 10px 8px 2px,black;
+    line-height: 35px;
+}
+#submitexam{
+    position: absolute;
+    top:10%;
+    right: 0%;
+    width:100px;
+    height:30px;
+    border-radius: 585px;
+    background-color: rgb(44, 71, 207);
+    color:rgb(255, 255, 255);
+}
+#hello{
+    float: left;
+    cursor: pointer;
+}
+#hello:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+#hello2:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+#hello2{
+    cursor: pointer;
+    float:right;
+}
+.submit123 > button{
+    width:100%;
+    height:50px;
+    cursor: pointer;
+    color:white;
+    margin-top: 10px;
+
+    background-color: rgb(189, 47, 47);
+}
+li{
+    list-style: none;
+    list-style: none;
+}
+.quizdatavisible{
+    display: none;
+}
+.submittedsuccessfully{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: rgb(255, 249, 249);
+    border: 1px solid rgb(66, 67, 66);
+    padding: 40px;
+    box-shadow: 10px 8px 2px,black;
+    border-radius: 7px;
+    line-height: 35px;
+}
+.submittedsuccessfully  h2{
+  width: 100%;
+  height:40%;
+  font-size: 20px;
+}
+.submittedsuccessfully h3{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+.timeline{
+    width: 6%;
+    height:2%;
+    background-color: rgb(237, 108, 108);
+}
