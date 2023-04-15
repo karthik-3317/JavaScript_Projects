@@ -1,0 +1,65 @@
+#display2{
+    width:50px;
+    height:40px;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.container{
+    width:400px;
+    height:270px;
+    background-color: aliceblue;
+    border: 2px solid rgba(120,45,78,0.4);
+    border-radius: 5px;
+   
+}
+.player{
+    width:100%;
+    height:40%;
+    padding: 0;
+    text-align: center;
+}
+.computer{
+    width:100%;
+    height:60%;
+    padding: 0;
+    text-align: center;
+}
+button{
+    width:70px;
+    height:40px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.player >h2{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+
+.computer >h2{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#display2{
+    font-size: 25px;
+    color: rgb(32, 218, 44);
+    font-family: cursive;
+}
+#display{
+    font-size: 25px;
+    color: rgb(32, 218, 44);
+    font-family: cursive;
+}
